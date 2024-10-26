@@ -1,0 +1,165 @@
+:root {
+    --bg-anya: #ffc4bc;
+    --color-anya: #fba294;
+    --bg-overview: #23352c;
+    --bg-loid: #353e38;
+    --bg-yor: #4e9a88;
+    --bg-anya2: #e4988b;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-spy {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.nav-content .navbar-brand img {
+    height: auto;
+    max-width: 120px;
+}
+
+.nav-content a {
+    font-size: 1.2rem;
+}
+
+.hero-section {
+    background-color: var(--bg-anya);
+}
+
+.hero-img img {
+    height: auto;
+    max-width: 100%;
+}
+
+.hero-logo img {
+    height: auto;
+    max-width: 500px;
+}
+
+.hero-content p,
+.overview-content p {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.hero-logo button {
+    font-size: 1rem;
+}
+
+.anya-color {
+    color: var(--color-anya);
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    background-color: var(--bg-anya);
+}
+
+/** Overview Section **/
+.overview-section {
+    background-color: var(--bg-overview);
+}
+
+.forgers {
+    padding-top: 40px;
+}
+
+/** Loid Section **/
+.loid-section {
+    background-color: var(--bg-loid);
+}
+
+.yor-section {
+    background-color: var(--bg-yor);
+}
+
+.anya-section {
+    background-color: var(--bg-anya2);
+}
+
+footer {
+    background-color: var(--bg-anya);
+}
+
+@media (max-width: 768px) {
+    .hero-content {
+        padding: 40px 20px 0 20px;
+    }
+
+    .hero-logo img {
+        max-height: 70px;
+    }
+
+    .hero-logo h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero-content p {
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    .hero-logo button {
+        font-size: 0.7rem;
+        padding: 8px 40px;
+    }
+
+    .overview-content p {
+        font-size: 0.8rem;
+    }
+
+    .nav-link {
+        font-size: 0.9rem;
+    }
+
+    .overview-center {
+        text-align: center;
+    }
+
+    .forgers {
+        padding-top: 0;
+    }
+
+
+    .overview-details h1,
+    .premise-details h1 {
+        font-size: 1.8rem;
+    }
+
+    .overview-details p,
+    .premise-details p {
+        font-size: 0.8rem;
+    }
+
+    .overview-section .row {
+        flex-direction: column;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+    
+    .loid-section img,
+    .yor-section img,
+    .anya-section img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .right-loid p,
+    .right-yor p,
+    .right-anya p {
+        text-align: center;
+    }
+}
